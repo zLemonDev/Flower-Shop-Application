@@ -1,63 +1,14 @@
 # Flower Shop Application
 
-Welcome to the **Flower Shop Application**! This project is designed to help manage a flower shop's operations, including product listings, inventory management, order processing, and customer interactions. Built entirely in Python, this application is a great starting point for small businesses or anyone interested in retail management software.
+ยินดีต้อนรับสู่ **แอปพลิเคชันร้านดอกไม้** โปรเจ็กต์นี้ได้รับการออกแบบมาเพื่อช่วยจัดการการดำเนินงานของร้านดอกไม้ รวมถึงรายการผลิตภัณฑ์ การจัดการสินค้าคงคลัง การประมวลผลคำสั่งซื้อ และการโต้ตอบกับลูกค้า แอปพลิเคชันนี้สร้างขึ้นด้วย Python ทั้งหมด ถือเป็นจุดเริ่มต้นที่ดีสำหรับธุรกิจขนาดเล็กหรือผู้ที่สนใจซอฟต์แวร์การจัดการร้านค้าปลีก
 
 ## Features
 
-- **Product Management**: Add, update, and remove flower products.
-- **Inventory Tracking**: Monitor stock levels and receive low-stock alerts.
-- **Order Processing**: Create, update, and track customer orders.
-- **Customer Management**: Store and manage customer information and order history.
-- **Search and Filter**: Quickly find products or orders using built-in search.
-
-## Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/zLemonDev/Flower-Shop-Application.git
-   cd Flower-Shop-Application
-   ```
-
-2. **(Optional) Create and activate a virtual environment:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-1. **Start the application:**
-   ```bash
-   python main.py
-   ```
-2. **Follow the on-screen instructions** to navigate through the application's features.
-
-## Project Structure
-
-```
-Flower-Shop-Application/
-│
-├── main.py                  # Entry point of the application
-├── requirements.txt         # Python dependencies
-├── README.md                # Project documentation
-├── [other modules/files]    # Supporting modules (e.g., inventory.py, orders.py)
-└── ...
-```
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request if you'd like to add features, fix bugs, or improve documentation.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a pull request
+- **การจัดการผลิตภัณฑ์**: เพิ่ม อัปเดต และลบผลิตภัณฑ์ดอกไม้
+- **การติดตามสินค้าคงคลัง**: ตรวจสอบระดับสต็อกและรับการแจ้งเตือนสต็อกเหลือน้อย
+- **การประมวลผลคำสั่งซื้อ**: สร้าง อัปเดต และติดตามคำสั่งซื้อของลูกค้า
+- **การจัดการลูกค้า**: จัดเก็บและจัดการข้อมูลลูกค้าและประวัติคำสั่งซื้อ
+- **การค้นหาและกรอง**: ค้นหาผลิตภัณฑ์หรือคำสั่งซื้ออย่างรวดเร็วโดยใช้การค้นหาในตัว
 
 ## License
 
